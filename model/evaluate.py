@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # Load the dataset
-data = pd.read_csv('data/iris.csv')
+data = pd.read_csv('iris.csv')
 
 # Preprocess the dataset
 X = data.drop('species', axis=1)
